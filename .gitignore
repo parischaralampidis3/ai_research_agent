@@ -1,0 +1,48 @@
+# === Python cache & build files ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Virtual environment ===
+venv/
+.env/
+.venv/
+env/
+
+# === Jupyter notebooks checkpoints ===
+.ipynb_checkpoints/
+
+# === Logs & temp files ===
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# === IDE/editor configs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Sensitive files ===
+# Environment variables (API keys, secrets, etc.)
+.env
+*.secret
+*.json   # if you store private credentials in JSON
+*.key
+*.pem
+
+# === Hugging Face / ML cache ===
+.cache/
+datasets/
+models/
+*.pt
+*.pth
+
+# === System files ===
+Thumbs.db
